@@ -1,0 +1,112 @@
+*{
+    border: 1px solid black;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+header nav{
+    width: 50%;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+}
+.cta{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    margin-right: 2%;
+    background-color: red;
+    font-weight: 900;
+    font-size: 110%;
+}
+.primersection div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.primersection div div{
+    width: 45%;
+    display: block;
+}
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+section h2{
+    font-size: 200%;
+}
+section div{
+    display: inline-block;
+    width: 45%;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid black;
+}
+section div h3{
+    font-size: 150%;
+}
+section div p{
+    font-size: 200%;
+}
+section div button{
+    width: 47%;
+    margin: 1%;
+    height: 40px;
+    font-size: 110%;
+    font-weight: 550;
+}
+.laCompra{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.laCompra div img{
+    width: 35%;
+}
+.laCompra div ul li{
+    font-size: 140%;
+    list-style-type: none;
+}
+footer{
+    border-top: 2px solid black
+}
+footer section{
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    font-size: 130%;
+    font-weight: bold;
+}
+footer section div{
+    width: 25%;
+}
+footer section ul{
+    text-align: center;
+    list-style-type: none;
+}
+footer section div ul li{
+    text-decoration: none;
+    padding: 1%;
+}
+footer section div ul li a{
+    text-decoration: none;
+    color: black;
+}
